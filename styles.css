@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.mainBG, .textBox {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img {
+    width: 100vw;
+}
+
+.mainBG {
+    z-index: 0;
+}
+
+.textBox {
+    background-color: white;
+    z-index: 5;
+}
+
+.mainText {
+    position: relative;
+}
+
+.slideText {
+    position: fixed;
+    top: 0;
+    left: 150vw;
+}
+
+.new {
+    position: relative;
+    z-index: 99 !important;
+}
